@@ -9,8 +9,6 @@ for ((I=0; I<${file_count}; I+=1)); do
 
     echo $IN_DIR
 
-    echo $DAY
-
     echo "${csv_files}"
 
     echo "${file_count}"
