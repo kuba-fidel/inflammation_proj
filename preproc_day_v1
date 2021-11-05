@@ -1,0 +1,18 @@
+#!/bin/bash
+
+IN_DIR=/home/brainhacker/inflammation_proj/raw_data
+DAY=17
+csv_files=(${IN_DIR}/*/*inflammation*.csv)
+file_count=${#csv_files[@]}
+
+for ((I=0; I<${file_count}; I+=1)); do
+
+    echo $IN_DIR
+
+    echo $DAY
+
+    echo "${csv_files}"
+
+    echo "${file_count}"
+
+done
